@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo h1{
+  font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: black;
+
+}
+.logo h1 span{
+  font-weight: normal;
+    display: block;
+}
+ a{
+    text-decoration: none;
+}
+ ul{
+     list-style-type: none;
+
+
+ }
+ .menu ul li{
+     display:inline-block;
+ }
+ .header{
+     border-bottom: gray;
+     border-bottom: solid;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 50px;
+     margin-bottom: 50px;
+
+ }
+ .list{
+
+
+     font-family: Raavi;
+     font-size: 20px;
+     margin-left: 50px ;
+     margin-right: 90px;
+     padding-right: 90px;
+
+ }
+ .list1 {
+
+     font-family: Raavi;
+     font-size: 20px;
+     margin-left: 50px;
+     padding-top: 40px;
+     margin-bottom: 90px;
+
+ }
+ .photo5{
+  margin-left: 50px;
+}
+ .data1{
+ margin-left: 50px;
+     margin-top: 10px;
+}
+ .list1 h2 span{
+     font-family: cursive;
+ }
+ .list h2 span{
+     font-family: cursive;
+ }
+   .footer p{
+     padding-top: 400px;
+       padding-bottom: 20px;
+ }
+   .footer1 p{
+   padding-top: 100px;
+}
+
+ .school h2{
+     font-size: 30px;
+     font-family: "Arial Narrow";
+ }
+ .school p{
+ font-size: 20px;
+     font-family: Arial;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+ .photo3 img{
+  display: inline-block;
+     float: left;
+     margin-left: 180px;
+     margin-right: 8px;
+     margin-bottom: 70px;
+}
+
+
+ .uni h2{
+  font-size: 30px;
+     font-family: "Arial Narrow" ;
+     margin-top: 50px;
+ }
+ .uni p{
+     font-size: 20px;
+     font-family: Arial;
+     margin-bottom: 25px;
+     margin-top: 20px;
+ }
+.photo1 {
+    margin-left: 300px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+
+
+
+
+
+
+
+
+
+
