@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: ivory;
+}
+.body{
+    background-color: grey;
+}
+.wrapper1{
+    background-color: grey;
+    position: relative;
+}
+
+.imp{
+    display: flex;
+    margin-top: 100px;
+}
+.rr{
+    padding-left: 270px;
+}
+.rrr{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.rrrr{
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.bm{
+    display: flex;
+    position: absolute;
+    top: 66px;
+    left: 1250px;
+}
+
+.ss{
+
+    display: flex;
+    margin-top:-56px;
+    position: absolute;
+}
+.tt{
+    font-family:'Lobster';
+    color: dimgrey;
+    font-size: 22px;
+    padding-top: 38px;
+
+
+}
+.tt2{
+font-size: 40px;
+    font-family:'Lobster';
+    color: blue;
+    padding-top: px;
+    padding-left:
+}
+.tt3{
+    font-family:'Lobster';
+    color: dimgrey;
+    font-size: 22px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.tt4{
+    font-size: 40px;
+    font-family:'Lobster';
+    color: blue;
+
+}
+
+.tt5{
+    font-family:'Lobster';
+    color: dimgrey;
+    font-size: 22px;
+    padding-top: 36px;
+    padding-right: 20px;
+}
+
+.tt6{
+    font-size: 40px;
+    font-family:'Lobster';
+    color: blue;
+    padding-top: px;
+    padding-left:12px;
+}
+.table1{
+    padding-left: 180px;
+    padding-right: 50px;
+
+}
+.table1 img{
+    border-radius: 60px;
+    cursor: pointer;
+}
+.table2{
+    padding-right: 50px;
+}
+.table2 img{
+    border-radius: 60px;
+    cursor: pointer;
+}
+.table3{
+    padding-left: 0px;
+}
+.table3 img{
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.hc{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+
+}
+
+
+.menu ul li{
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+
+.menu ul li  {
+    padding: 10px 10px;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: brown;
+
+}
+
+.menu ul li:hover{
+    background-color: coral;
+    cursor: pointer;
+    border-radius: 15px;
+    border:0.5px solid brown;
+}
+
+.menu .burger-menu {
+    display: none;
+    position: relative;
+}
+.menu .burger-menu:hover .menu-item ul {
+    display: block;
+}
+.menu .burger-menu .menu-item li {
+    margin-bottom:20px;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 180px;
+}
+.wrapper{
+    min-width: 930px;
+}
+
+.child{
+    position: relative;
+
+}
+.line0{
+    line-height: 23px;
+}
+.line{
+
+    font-family:'Lobster', cursive;
+    font-size: 40px;
+    margin-top: 170px;
+    margin-left: 480px;
+}
+.line2{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+.line2 span{
+    margin-left: 410px;
+    padding-top: 130px;
+}
+
+
+
+p{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    right: 1180px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px black;
+}
+.text23{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    right: 1180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px ;
+    color: whitesmoke;
+}
+.but{
+    position: absolute;
+    top: 340px;
+    cursor: pointer;
+    left: 30px;
+
+}.but1{
+    position: absolute;
+    top: 340px;
+    cursor: pointer;
+    left: 200px;
+
+}
+@media only screen and ( max-width: 875px ) {
+    .photo {
+        float: none;
+    }
+    .menu > ul {
+        display: none;
+    }
+    .menu .burger-menu {
+        display: block;
+    }
